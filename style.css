@@ -1,1 +1,18 @@
 /* CSS Style Sheet */
+img {
+   width: 450px;
+} 
+input {
+    width: 450px;
+}
+
+body {
+    background-color: rgba(255, 250, 240, 0.7);
+    width: 600px;
+    margin: 25px auto;
+    text-align: center;
+    padding: 50px 0 0;
+    border-radius: 25px;
+}
+
+   
