@@ -8,9 +8,7 @@ document.getElementById("8-ball").addEventListener("click", Answer);
 
 
 function Answer() {
-  if (quest = "") {
-    answ.innerHTML = "Please ask a question";
-  } else {
+  
     let randnum = Math.random()
     if (randnum < 0.2) {
         answ.innerHTML = "Without a Doubt";
@@ -23,5 +21,5 @@ function Answer() {
     } else if (randnum < 1) {
         answ.innerHTML = "Outlook not so good";
     } 
-}
+
 }
