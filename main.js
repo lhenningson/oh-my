@@ -8,7 +8,7 @@ document.getElementById("8-ball").addEventListener("click", Answer);
 
 
 function Answer() {
-  
+
     let randnum = Math.random()
     if (randnum < 0.2) {
         answ.innerHTML = "Without a Doubt";
